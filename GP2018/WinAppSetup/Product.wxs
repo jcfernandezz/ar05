@@ -242,7 +242,7 @@
 					</Directory>
 					<Directory Id="InstaladorSQL" Name="Instalador Compañia">
 						<Component Id="InstaladorSQL" Guid="7B289C8E-6F5B-4A7B-A9A1-E78A89239725">
-							<File Id="InstaladorSQL" Source="$(var.SolutionDir)LocArgSetupCompaniaSQL\bin\Debug\LocArgSetupCompaniaSQL.msi"/>
+							<File Id="InstaladorSQL" Source="$(var.SolutionDir)LocArgSetupCompaniaSQL\bin\Debug\LocArgSetupCiaSQLvXXX.GP18.00.0400.msi"/>
 							<RemoveFile Id="InstaladorSQL" Name="LocArgSetupCompaniaSQL.msi" On="both"/>
 							<File Id="report_deploy" Source="$(var.SolutionDir)LocArgSetupCompaniaSQL\deploy_report_FE.rss"/>
 							<RemoveFile Id="report_deploy" Name="deploy_report_FE.rss" On="both"/>
